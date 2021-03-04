@@ -9,4 +9,12 @@ const files = [
   "files files4.JPEeeeeeeeeeeeeeeeEG",
 ];
 
-export { text, files };
+const html = `<h1>Meu título principal</h1> <h2>Meu título de alto nível</h2> <h3>Meu subtítulo</h3> <h4>Meu segundo subtítulo</h4> <p>Na Mozilla, somos uma comunidade global de</p>
+<ul>
+  <li>tecnólogos</li>
+  <li>pensadores</li>
+  <li>construtores</li>
+</ul>
+<p>trabalhando juntos ... </p>`;
+
+export { text, files, html };
