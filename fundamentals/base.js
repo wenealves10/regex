@@ -17,7 +17,27 @@ const html = `<h1>Meu título principal</h1> <h2>Meu título de alto nível</h2>
 </ul>
 <p>trabalhando juntos ... </p>`;
 
+const cpfs = `os cpfs são:
+254.586.456-85
+
+           210.641.410-52
+
+985.232.312-74
+
+
+     854.965.523-85`;
+const ipS = `os IPs são esses:
+0.0.0.0
+    192.168.0.102
+        192.168.0.124
+    192.014.012
+  198.168.2.021
+10.10.5.12
+    255.255.255.255
+      127.0.1.1
+`;
+
 const alphabet =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz °/?;:.><,+[]}{ª_-=)(*&%¢$£#@!| 0123456789";
 
-export { text, files, html, alphabet };
+export { text, files, html, alphabet, cpfs, ipS };
