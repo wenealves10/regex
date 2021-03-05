@@ -17,4 +17,7 @@ const html = `<h1>Meu título principal</h1> <h2>Meu título de alto nível</h2>
 </ul>
 <p>trabalhando juntos ... </p>`;
 
-export { text, files, html };
+const alphabet =
+  "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz °/?;:.><,+[]}{ª_-=)(*&%¢$£#@!| 0123456789";
+
+export { text, files, html, alphabet };
