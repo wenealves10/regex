@@ -17,6 +17,12 @@ const html = `<h1>Meu título principal</h1> <h2>Meu título de alto nível</h2>
 </ul>
 <p>trabalhando juntos ... </p>`;
 
+const html2 = `<h1>Meu título principal</h1> <h2 class="text1" data-text='text3'>Meu título de alto nível</h2> <h3>Meu subtítulo</h3> <h4>
+Meu segundo subtítulo
+</h4> <p>
+Na Mozilla, somos uma comunidade global de
+</p>`;
+
 const cpfs = `os cpfs são:
 254.586.456-85
 
@@ -40,4 +46,4 @@ const ipS = `os IPs são esses:
 const alphabet =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz °/?;:.><,+[]}{ª_-=)(*&%¢$£#@!| 0123456789";
 
-export { text, files, html, alphabet, cpfs, ipS };
+export { text, files, html, alphabet, cpfs, ipS, html2 };
