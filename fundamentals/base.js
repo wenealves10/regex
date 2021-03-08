@@ -46,4 +46,18 @@ const ipS = `os IPs são esses:
 const alphabet =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz °/?;:.><,+[]}{ª_-=)(*&%¢$£#@!| 0123456789";
 
-export { text, files, html, alphabet, cpfs, ipS, html2 };
+const logs = `
+OFF 192.168.0.100 ABSDFSDFCDF inactive
+ON 192.168.0.101 ABCDFGAFDS active
+OFF 192.168.0.102 ABCDSF inactive
+ON 192.168.0.103 ABCDSSF inactive
+OFF 192.168.0.104 ABCDFFDS active
+ON 192.168.0.105 ABCDFDSFS inactive
+OFF 192.168.0.106 ABCDSDFSDF active
+ON 192.168.0.107 ABCDSDFSDFGGF inactive
+OFF 192.168.0.108 ABFSDFSDCDF active
+ON 192.168.0.109 ABCSDFSDFDF inactive
+OFF 192.168.0.110 ABCSDFSDFDSDF active
+`;
+
+export { text, files, html, alphabet, cpfs, ipS, html2, logs };
